@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP4 - Proyecto Integrador de APIs</title>
+    <link rel="stylesheet" href="statics/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Proyecto Integrador de APIs</h1>
+        <p>Explora información en tiempo real usando diversas interfaces de programación.</p>
+    </header>
+
+    <main>
+        <h2 id="bienvenida-mensaje">¡Hola! Ingresa tus datos para comenzar.</h2>
+        <p id="nombre-usuario-display" class="hidden">Bienvenido(a), <span id="usuario-saludo"></span>. ¡Selecciona una API!</p>
+
+        <div class="botones-menu">
+            <a href="templates/clima.html" class="boton-api clima-btn">API del Clima ☀️</a>
+            <a href="templates/paises.html" class="boton-api paises-btn">API de Países 🌍</a>
+            <a href="templates/pokemon.html" class="boton-api pokemon-btn">API de Pokémon 👾</a>
+            <a href="templates/rick.html" class="boton-api rick-btn">API Rick & Morty 👽</a>
+            <a href="templates/cripto.html" class="boton-api cripto-btn">API Criptomonedas ₿</a>
+        </div>
+    </main>
+    
+    <a href="index.html" class="boton-volver hidden">⬅️ Inicio</a>
+
+    <script src="js/script_bienvenida.js"></script>
+</body>
+</html>

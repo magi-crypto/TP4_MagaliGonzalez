@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Criptomonedas</title>
+    <link rel="stylesheet" href="../statics/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cotización de Criptomonedas - CoinGecko 📈</h1>
+    </header>
+
+    <main>
+        <div class="consulta-form">
+            <label for="select-moneda">Selecciona una Criptomoneda:</label>
+            <select id="select-moneda">
+                <option value="">-- Selecciona una --</option>
+            </select>
+            <button id="boton-buscar-cripto">Obtener Precio</button>
+        </div>
+        
+        <div id="resultado-container" class="resultado"></div>
+
+        <a href="../index.html" class="boton-volver">⬅️ Volver al Inicio</a>
+    </main>
+
+    <script src="../js/cripto.js"></script>
+</body>
+</html>

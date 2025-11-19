@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API del Clima</title>
+    <link rel="stylesheet" href="../statics/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Consulta del Clima - OpenWeather ☀️</h1>
+    </header>
+
+    <main>
+        <div class="consulta-form">
+            <input type="text" id="ciudad" placeholder="Ingresa el nombre de la ciudad">
+            <button id="boton-buscar">Buscar Clima</button>
+        </div>
+        
+        <div id="resultado" class="resultado">
+            <h3>Resultado para: <span id="ciudad-display">...</span></h3>
+            <p>Temperatura: <span id="temp-display">...</span></p>
+            <p>Humedad: <span id="humedad-display">...</span></p>
+            <p>Descripción: <span id="desc-display">...</span></p>
+        </div>
+
+        <a href="../index.html" class="boton-volver">⬅️ Volver al Inicio</a>
+    </main>
+
+    <script src="../js/clima.js"></script>
+</body>
+</html>
