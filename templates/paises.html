@@ -9,6 +9,10 @@
 <body>
     <header>
         <h1>Consulta de Países - REST Countries 🌍</h1>
+        <!-- Imagen decorativa debajo del título -->
+        <div class="header-img-container">
+            <img src="../statics/imagenes/paises.jpg" alt="Países" class="header-img">
+        </div>
     </header>
 
     <main>
@@ -17,13 +21,7 @@
             <button id="boton-buscar-pais">Buscar País</button>
         </div>
         
-        <div id="resultado-container" class="resultado">
-            <h3>Información del País:</h3>
-            <p><strong>Nombre Oficial:</strong> <span id="pais-nombre-oficial">...</span></p>
-            <p><strong>Capital:</strong> <span id="pais-capital">...</span></p>
-            <p><strong>Población:</strong> <span id="pais-poblacion">...</span></p>
-            <img id="bandera-img" src="" alt="Bandera del país" class="hidden">
-        </div>
+        <div id="resultado-container" class="resultado"></div>
 
         <a href="../index.html" class="boton-volver">⬅️ Volver al Inicio</a>
     </main>
@@ -31,3 +29,4 @@
     <script src="../js/paises.js"></script>
 </body>
 </html>
+
