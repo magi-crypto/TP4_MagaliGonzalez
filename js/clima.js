@@ -36,3 +36,4 @@ botonBuscar.addEventListener("click", () => {
             resultado.innerHTML = `<p style="color:red; text-align:center;">${error.message}</p>`;
         });
 });
+
